@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-slate-50 text-ink antialiased; }
+  h1, h2, h3 { @apply font-display; }
+  :focus-visible { outline: 3px solid #f5d300; outline-offset: 2px; }
+}
